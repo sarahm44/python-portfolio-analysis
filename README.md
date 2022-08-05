@@ -1,6 +1,17 @@
 # Python Portfolio Analysis
 ![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/portfolio-analysis.png)
 
+## Contents
+- [Overview](#overview)
+- [Data Preparation](#data-preparation)
+- [Quantitative Analysis](#quantitative-analysis)
+  * [Performance Analysis](#performance-analysis)
+  * [Risk Analysis](#risk-analysis)
+- [Sharpe Ratios](#sharpe-ratios)
+- [Custom Portfolio](#custom-portfolio)
+  * [Data Preparation](#data-preparation-1)
+  * [Re-run the Analysis, Comparing My Portfolio](#re-run-the-analysis-comparing-my-portfolio)
+
 ## Overview 
 
 I was tasked with analysing a number of financial portfolios across the areas of:
@@ -25,10 +36,10 @@ For the data preparation I was required to do the following:
 * Use Pandas to read each CSV file in as a DataFrame. 
 * Detect and remove all null values. 
 * Convert the S&P 500 closing prices to daily returns. 
-* Join the Whale Returns, Algorithmic Returns, and the S&P 500 Returns into a single DataFrame with columns for each portfolio's individual returns. 
+* Join the [Whale Returns](https://github.com/sarahm44/unit-4-assignment/blob/main/whale_analysis.csv), [Algorithmic Returns](https://github.com/sarahm44/unit-4-assignment/blob/main/algo_returns.csv), and the [S&P 500 Returns](https://github.com/sarahm44/unit-4-assignment/blob/main/sp_tsx_history.csv) into a single DataFrame with columns for each portfolio's individual returns. 
 
 See the single DataFrame below:
-![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/data_prep.jpg)
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/data_prep.png)
 
 ## Quantitative Analysis
 In this section, I was required to calculate and visualize performance and risk metrics for the portfolios.
