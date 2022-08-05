@@ -53,9 +53,6 @@ In this section, I was required to calculate and visualize performance and risk 
 #### Annualised Standard Deviation
 ![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/annualised_std.png)
 
-#### Cumulative Returns
-![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/cumulative_returns.png)
-
 #### Rolling Standard Deviation with a 21-day Window
 ![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/rolling_std.png)
 
@@ -69,7 +66,8 @@ In this section, I was required to calculate and visualize performance and risk 
 I was required to calculate and plot Beta for a chosen portfolio (algo 1) and the S&P 60 TSX.
 ![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/beta.png)
 
-## Annualised Sharpe Ratios
+## Sharpe Ratios
+### Annualised Sharpe Ratios
 ![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/annualised_sharpe_ratios.png)
 
 ### Sharpe Ratios Bar Plot
@@ -86,26 +84,41 @@ I created a custom portfolio of [Cardano](https://github.com/sarahm44/unit-4-ass
 I used the Google Finance function to choose a portfolio, then downloaded the data needed as CSV files.
 
 In my notebook I read in the CSVs and joined them as a single DataFrame, as below:
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_01.png)
 
-I calculated the weighted returns for the portfolio assuming an equal number of shares for each stock.
+I calculated the weighted returns for the portfolio assuming an equal number of shares for each stock:
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_02.png)
 
 Then I added these to my DataFrame containing all portfolios:
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_03.png)
 
 ### Re-run the Analysis, Comparing My Portfolio
 
 #### Annualised Standard Deviation
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_04.png)
 
 #### Rolling Standard Deviation with a 21-day Window
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_05.png)
 
-#### Correlation
+#### Calculate Correlation
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_06.png)
+
+#### Plot Correlation
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_07.png)
 
 #### Beta
 I was required to calculate and plot 60-day Rolling Beta for My Portfolio compared to the S&P 60 TSX.
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_08.png)
+
+#### Annualised Sharpe Ratios
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_09.png)
 
 #### Sharpe Ratios Bar Plot
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_10.png)
 
 #### My Portfolio Compared to the Market
 
 For my portfolio, I found as follows:
+![""](https://github.com/sarahm44/unit-4-assignment/blob/main/Images/my_portfolio_11.png)
 
 
